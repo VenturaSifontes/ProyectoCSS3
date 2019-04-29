@@ -18,22 +18,22 @@ header h1{
    color: white;
   text-shadow: 2px 2px #02010a;
   display: inline;
-  margin-left: 5%;
+  margin-left: 8%;
 }
  header menu{
   color: white;
   display: inline;
   float:right;
-  margin-right: 5%;
+
 }
 menu a{
   color: white;
   font-size: 1.1em;
-  padding-right: 10%;
+
 
 }
-@keyframes bodylink {
 
+@keyframes bodylink {
  from{
     position: relative;
     margin-top: 100%;
@@ -43,11 +43,9 @@ menu a{
     margin-top: 0%;
   }
 }
-
 body{
   animation-name: bodylink;
   animation-duration: 1S;
-
 }
 
 
@@ -58,10 +56,11 @@ div a:hover, div a:active{
 img{
   border: 1px solid black;
 }
+
 h2{
   text-decoration: underline;
-
-}
+  margin-top: 2%;
+  }
 
 .img1{
   transform: none;
@@ -95,50 +94,46 @@ h2{
   shadow: 2px, #82c3a6;
 }
 
-.Vertical {
+.ImagenCen {
   margin-left: 10%;
   margin-right: 10%;
-  max-width: 100%;
-  display: flex;
-  flex-flow: row;
+  max-width: 70%;
+  padding-left: 10%;
+  padding-top: 0.5%;
   background-color: #82c3a6;
 
       }
-.Horizontal {
+#contenedor {
   margin-left: 10%;
   margin-right: 10%;
   max-width: 100%;
   display: flex;
-  flex-flow: row;
+  flex-flow: wrap;
   background-color: #d5c75f;
   padding-top: 3%;
   padding-left: 3%;
-    }
+      }
 
-article{
-  display: flex;
-  flex-flow: row;
-  width: 100%;
-        }
+
 
 footer{
   display: flex;
-  flex-flow: row;
+  flex-flow: wrap;
   margin-left: 10%;
   margin-right: 10%;
   border-radius: 0px 0px 10px 10px;
   background-color: #C6d5c5;
   width: 80%;
+  text-align: center;
 }
 #Boxes article{
-  width: 20%
   display: flex;
   flex-flow: column;
   padding-right: 5%;
   padding-left: 1%;
-  font-size: 1.65vw;
-    text-align:center;
+  font-size: 1em;
   vertical-align: text-top;
+  text-align: center;
 }
 
 article> a{
@@ -146,24 +141,123 @@ article> a{
 }
 
 .ImagenCen {
-  order: 1;
-  max-width: 100%;
-  background-color: #82c3a6;
-  align-items: center;
-  padding-left: 13%;
+  width: 100%;
 
   }
 .ImagenIzq {
-  order: 2;
-  max-width: 100%;
-  background-color: #d5c75f;
-  align-items: center;
-  padding-left: 5%;
+  width: 60%;
+
 }
 .ImagenDer {
-  order: 3;
-  max-width: 100%;
-  background-color: #d5c75f;
-  align-items: center;
-  padding-left: 5%;
+  width: 40%;
+
+}
+.img1{
+  width: 33%;
+
+}
+.img2{
+  width: 33%;
+
+}
+.img3{
+  width: 33%;
+
+}
+.img4{
+  width: 33%;
+
+}
+.img5{
+  width: 33%;
+
+}
+.img6{
+  width: 33%;
+
+}
+.column1{
+  width: 18%;
+}
+.column2{
+    width: 18%;
+}
+.column3{
+    width: 18%;
+}
+.column4{
+    width: 18%;
+}
+
+#wrapper{
+  max-width: 900px;
+}
+
+
+
+@media (max-width:900px) {
+  wrapper{
+    width: 100%;
+  }
+
+  header h1{
+align-items: center;
+  text-align: center;
+  }
+
+  header menu{
+   float: none;
+   text-align: center;
+
+ }
+
+  .ImagenCen {
+    width: 100%;
+
+    }
+  .ImagenIzq {
+    width: 100%;
+
+  }
+  .ImagenDer {
+    width: 100%;
+
+  }
+  .img1{
+    width: 100%;
+
+  }
+  .img2{
+    width: 100%;
+
+  }
+  .img3{
+    width: 100%;
+
+  }
+  .img4{
+    width: 100%;
+
+  }
+  .img5{
+    width: 100%;
+
+  }
+  .img6{
+    width: 100%;
+
+  }
+  .column1{
+    width: 100%;
+  }
+  .column2{
+      width: 100%;
+  }
+  .column3{
+      width: 100%;
+  }
+  .column4{
+      width: 100%;
+  }
+
 }
